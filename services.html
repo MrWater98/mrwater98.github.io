@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Services | Yuzhe Ma</title>
+    <title>Services | Ziyue Zheng</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -24,7 +24,7 @@
 
 <body>
     <!-- Navigation bar -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-hkust-light">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-hkust-light">
         <a class="navbar-brand" href="#">
         <img src="assets/img/GZ_logo.svg" alt="..." height="45">
         </a>
@@ -41,9 +41,6 @@
             <li class="li-nav-item">
                 <a class="nav-link " href="publications.html">Publications</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " href="teaching.html">Teaching</a>
-            </li>
             <li class="li-nav-item">
                 <a class="nav-link " href="experience.html">Experience</a>
             </li>
@@ -57,72 +54,105 @@
 
 <div class="container">
     <div class="row" id="services">
-        <div class="col-md-10">
-            <div class="section_header"> Technical Program Committee </div>
+        <div class="col-md-12">
+            <div class="section_header">Professional Services</div>
+            
+            <!-- Sub-Reviewer & Student Reviewer -->
             <div class="service">
-                <div class="service-venue">
-                    IEEE/ACM International Conference on Computer-Aided Design (ICCAD)
+                <div class="service-title">
+                    Sub-Reviewer & Student Reviewer
                 </div>
-                <div class="service-date">
-                    2022
+                <div class="service-venue">
+                    DATE 2024, DAC 2024, HOST 2025, GLSVLSI
                 </div>
             </div>
+            
+            <!-- Benchmark Contributor -->
             <div class="service">
-                <div class="service-venue">
-                    ACM/IEEE Design Automation Conference (DAC)
+                <div class="service-title">
+                    HWMCC 2024 Benchmark Contributor
                 </div>
-                <div class="service-date">
-                    2022
+                <div class="service-venue">
+                    <a href="https://hwmcc.github.io/2024/" target="_blank">Hardware Model Checking Competition 2024</a>
                 </div>
             </div>
-            <div class="service">
-                <div class="service-venue">
-                    IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS)
-                </div>
-                <div class="service-date">
-                    2022
-                </div>
-            </div>
-            <div class="service">
-                <div class="service-venue">
-                    Workshop on Synthesis And System Integration of Mixed Information Technologies (SASIMI)
-                </div>
-                <div class="service-date">
-                    2021, 2022
-                </div>
-            </div>
-        </div>
-        <div class="col-md-10">
-            <div class="section_header"> Journal Review </div>
-            <div class="service">
-                <div class="service-venue">
-                    IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (TCAD)
-                </div>
-            </div>
-            <div class="service">
-                <div class="service-venue">
-                    ACM Transactions on Design Automation of Electronic Systems (TODAES)
-                </div>
-            </div>
-            <div class="service">
-                <div class="service-venue">
-                    IEEE Transactions on Very Large Scale Integration (VLSI) Systems
-                </div>
-            </div>
-            <div class="service">
-                <div class="service-venue">
-                    VLSI Design
-                </div>
-            </div>
-            <div class="service">
-                <div class="service-venue">
-                    IET Cyber-Physical Systems: Theory & Applications
-                </div>
-            </div>
+            
         </div>
     </div>
-
+    
+    <div class="row" id="projects">
+        <div class="col-md-12">
+            <div class="section_header">Collaborative Projects</div>
+            
+            <!-- Huawei Spark Award -->
+            <div class="service">
+                <div class="service-title">
+                    Huawei "Spark Award" Project Contributor
+                </div>
+                <div class="service-description">
+                    Research on semi-formal modeling for SAT-based hardware verification in EDA topics.
+                </div>
+                <div class="service-time">
+                    71st Challenge
+                </div>
+            </div>
+            
+            <!-- Primarius Verisim -->
+            <div class="service">
+                <div class="service-title">
+                    Primarius Verisim RTL Simulator Verification
+                </div>
+                <div class="service-description">
+                    Verisim simulator Validation and testing.
+                </div>
+            </div>
+            
+            <!-- Univista UVS -->
+            <div class="service">
+                <div class="service-title">
+                    Univista RTL Simulator (UVS) Testing and Verification
+                </div>
+                <div class="service-description">
+                    Validation and testing of UVS RTL simulator for hardware verification.
+                </div>
+            </div>
+            
+            <!-- ICT ECOS Team -->
+            <div class="service">
+                <div class="service-title">
+                    ICT* ECOS Team Processor Verification Collaboration
+                </div>
+                <div class="service-description">
+                    Verification of CL1 (ARM M0-class) core using self-designed coverage-based testing tools.
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="row" id="teaching">
+        <div class="col-md-12">
+            <div class="section_header">Teaching Assistant</div>
+            
+            <div class="service">
+                <div class="service-title">
+                    C++, Embedded System
+                </div>
+                <div class="service-time">
+                    2023, 2025, 2026
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            <p style="font-size: 0.8em; color: #666;">*ICT: Institute of Computing Technology, Chinese Academy of Sciences</p>
+        </div>
+    </div>
 </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
