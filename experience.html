@@ -1,222 +1,192 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="zh">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Experience | Ziyue Zheng</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <!-- custom css -->
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <!-- Navigation bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-hkust-light">
-        <a class="navbar-brand" href="#">
-        <img src="assets/img/GZ_logo.svg" alt="..." height="45">
-        </a>
-        <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </button>
-    <div class="collapse navbar-collapse navbar-light" id="navbarItems">
-        <!--<ul class="navbar-nav ml-auto">-->
-        <ul class="navbar-nav ml-auto">
-            <li class="li-nav-item">
-                <a class="nav-link " href="index.html">Home</a>
-            </li>
-            <li class="li-nav-item">
-                <a class="nav-link " href="publications.html">Publications</a>
-            </li>
-            <li class="li-nav-item">
-                <a class="nav-link " href="experience.html">Experience</a>
-            </li>
-        </ul>
-    </div>
-</nav>
 
 <div class="container">
-    <div class="row" id="experience">
-        <div class="col-md-12">
-            <div class="section_header">Professional Experience</div>
-            
-            <!-- PhD -->
-            <div class="experience">
-                <div class="exp_position">
-                    PhD Student
-                </div>
-                <div class="exp_affiliation">
-                    HKUST(GZ), Microelectronics Thrust - Supervised by Prof. Yangdi Lyu
-                </div>
-                <div class="exp_time">
-                    Sept. 2024 – Present
-                </div>
-                <div class="exp_description">
-                    Research on intelligent verification techniques for digital chips, including EDA tools, concolic testing, hardware fuzzing, and RTL static analysis.
-                </div>
-            </div>
-            
-            <!-- Research Intern at Huawei -->
-            <div class="experience">
-                <div class="exp_position">
-                    Research Intern
-                </div>
-                <div class="exp_affiliation">
-                    Huawei NoahArk Lab: Agentic EDA - Supervisor: Siyuan XU
-                </div>
-                <div class="exp_time">
-                    Feb. 2026 – Aug. 2026
-                </div>
-                <div class="exp_description">
-                    Research & Project: Agentic Placement for 3DIC, 3DIC Placement Optimization with AI.
-                </div>
-            </div>
 
-            <!-- Red Bird MPhil -->
-            <div class="experience">
-                <div class="exp_position">
-                    Red Bird MPhil
-                </div>
-                <div class="exp_affiliation">
-                    HKUST(GZ), Microelectronics Thrust - Supervised by Prof. Yangdi Lyu | GPA: 4.014/4.3 (Full Scholarship)
-                </div>
-                <div class="exp_time">
-                    Sept. 2022 – Aug. 2024
-                </div>
-                <div class="exp_description">
-                    Research on optimization algorithms, hardware formal verification & testing.
-                </div>
-            </div>
+<!-- Navigation -->
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="publications.html">Publications</a> |
+    <a href="experience.html">Experience</a>
+    <span class="lang-nav">
+        <a href="#" onclick="setLang('zh'); return false;" class="lang-zh active-lang">中文</a>
+        |
+        <a href="#" onclick="setLang('en'); return false;" class="lang-en">English</a>
+    </span>
+</nav>
 
-            <!-- Research Assistant at HKUST Fok Ying Tung -->
-            <div class="experience">
-                <div class="exp_position">
-                    Research Assistant
-                </div>
-                <div class="exp_affiliation">
-                    HKUST Fok Ying Tung Research Institute - Guangzhou, China
-                </div>
-                <div class="exp_time">
-                    Sept. 2021 – Sept. 2022
-                </div>
-                <div class="exp_description">
-                    Research & Project: Optimization Algorithms, Hardware Formal Verification & Testing.
-                </div>
-            </div>
+<!-- ============ CHINESE CONTENT ============ -->
+<div id="lang-zh" data-lang-container class="active">
 
-            <!-- Research Assistant at Oxford-Hainan -->
-            <div class="experience">
-                <div class="exp_position">
-                    Research Assistant
-                </div>
-                <div class="exp_affiliation">
-                    Oxford-Hainan Blockchain Research Institution - Hainan, China
-                </div>
-                <div class="exp_time">
-                    Mar. 2021 – Sept. 2021
-                </div>
-                <div class="exp_description">
-                    Research & Project: Concolic Testing for Smart Contract; Random Number in Blockchain.
-                </div>
-            </div>
+<div class="section-header">工作经历</div>
 
-            <!-- Algorithm Engineer at China Mobile -->
-            <div class="experience">
-                <div class="exp_position">
-                    Algorithm Engineer
-                </div>
-                <div class="exp_affiliation">
-                    China Mobile Online Service Company - Guangzhou, China
-                </div>
-                <div class="exp_time">
-                    Mar. 2020 – Sept. 2020
-                </div>
-                <div class="exp_description">
-                    Research & Project: Deep Semantic Structured Model; English Chatbot through Click-through Data.
-                </div>
-            </div>
-
-        </div>
-    </div>
-    
-    <div class="row" id="education">
-        <div class="col-md-12">
-            <div class="section_header">Education</div>
-            
-            <div class="experience">
-                <div class="exp_position">
-                    PhD | Microelectronics
-                </div>
-                <div class="exp_affiliation">
-                    The Hong Kong University of Science and Technology (Guangzhou)
-                </div>
-                <div class="exp_time">
-                    Sept. 2024 – Present | GPA: 4.15/4.3 (Full Scholarship)
-                </div>
-            </div>
-            
-            <div class="experience">
-                <div class="exp_position">
-                    MPhil | Microelectronics
-                </div>
-                <div class="exp_affiliation">
-                    The Hong Kong University of Science and Technology (Guangzhou)
-                </div>
-                <div class="exp_time">
-                    Sept. 2022 – Aug. 2024 | GPA: 4.014/4.3 (Full Scholarship)
-                </div>
-            </div>
-            
-            <div class="experience">
-                <div class="exp_position">
-                    Bachelor of Science | Digital Media Technology
-                </div>
-                <div class="exp_affiliation">
-                    Xiamen University
-                </div>
-                <div class="exp_time">
-                    Oct. 2017 – Aug. 2021 | GPA: 3.54/4.0
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="row" id="skills">
-        <div class="col-md-12">
-            <div class="section_header">Skills & Research Interests</div>
-            <div class="skills">
-                <p><b>Programming Languages:</b> Verilog/SystemVerilog (SVA), Python, C++, Chisel</p>
-                <p><b>EDA & Hardware Verification:</b> Symbolic Execution, Concolic Testing, Hardware Simulation & Emulation, LLM-based Testing, SMT Solver, Model Checking, Hardware Security</p>
-                <p><b>Optimization & AI:</b> Reinforcement Learning (Multi-agent), Meta-heuristic Optimization, Genetic Algorithm, LLM-driven EDA Optimization</p>
-                <p><b>Tools & Frameworks:</b> Cadence JasperGold, Synopsys Formality, Verilator, Yosys, Pono, Cocotb, iverilog, VCS</p>
-            </div>
-        </div>
-    </div>
+<div class="exp-entry">
+    <div class="exp-position">博士研究生</div>
+    <div class="exp-affiliation">香港科技大学（广州），微电子学域 — 导师：吕杨迪教授</div>
+    <div class="exp-time">Sept. 2024 – Present</div>
+    <div class="exp-description">研究数字芯片智能验证技术，包括 EDA 工具、混合执行测试、硬件模糊测试和 RTL 静态分析。</div>
 </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/style.js"></script>
+
+<div class="exp-entry">
+    <div class="exp-position">研究实习生</div>
+    <div class="exp-affiliation">华为诺亚方舟实验室：Agentic EDA — 导师：许思源</div>
+    <div class="exp-time">Feb. 2026 – Aug. 2026</div>
+    <div class="exp-description">研究项目：3DIC 智能布局、基于 AI 的 3DIC 布局优化。</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">红鸟硕士</div>
+    <div class="exp-affiliation">香港科技大学（广州），微电子学域 — 导师：吕杨迪教授 | GPA: 4.014/4.3（全额奖学金）</div>
+    <div class="exp-time">Sept. 2022 – Aug. 2024</div>
+    <div class="exp-description">研究方向：优化算法、硬件形式化验证与测试。</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">研究助理</div>
+    <div class="exp-affiliation">HKUST Fok Ying Tung Research Institute — Guangzhou, China</div>
+    <div class="exp-time">Sept. 2021 – Sept. 2022</div>
+    <div class="exp-description">研究项目：优化算法、硬件形式化验证与测试。</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">研究助理</div>
+    <div class="exp-affiliation">Oxford-Hainan Blockchain Research Institution — Hainan, China</div>
+    <div class="exp-time">Mar. 2021 – Sept. 2021</div>
+    <div class="exp-description">研究项目：智能合约的混合执行测试；区块链中的随机数问题。</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">算法工程师</div>
+    <div class="exp-affiliation">中国移动在线服务公司 — 广州</div>
+    <div class="exp-time">Mar. 2020 – Sept. 2020</div>
+    <div class="exp-description">研究项目：深度语义结构化模型；基于点击数据的英文聊天机器人。</div>
+</div>
+
+<div class="section-header">教育经历</div>
+
+<div class="exp-entry">
+    <div class="exp-position">PhD | Microelectronics</div>
+    <div class="exp-affiliation">香港科技大学（广州）</div>
+    <div class="exp-time">Sept. 2024 – Present | GPA: 4.15/4.3 (Full Scholarship)</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">MPhil | Microelectronics</div>
+    <div class="exp-affiliation">香港科技大学（广州）</div>
+    <div class="exp-time">Sept. 2022 – Aug. 2024 | GPA: 4.014/4.3 (Full Scholarship)</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">理学学士 | 数字媒体技术</div>
+    <div class="exp-affiliation">厦门大学</div>
+    <div class="exp-time">Oct. 2017 – Aug. 2021 | GPA: 3.54/4.0</div>
+</div>
+
+<div class="section-header">专业技能与研究兴趣</div>
+
+<div class="skills">
+    <p><b>Programming Languages:</b> Verilog/SystemVerilog (SVA), Python, C++, Chisel</p>
+    <p><b>EDA &amp; Hardware Verification:</b> Symbolic Execution, Concolic Testing, Hardware Simulation &amp; Emulation, LLM-based Testing, SMT Solver, Model Checking, Hardware Security</p>
+    <p><b>Optimization &amp; AI:</b> Reinforcement Learning (Multi-agent), Meta-heuristic Optimization, Genetic Algorithm, LLM-driven EDA Optimization</p>
+    <p><b>Tools &amp; Frameworks:</b> Cadence JasperGold, Synopsys Formality, Verilator, Yosys, Pono, Cocotb, iverilog, VCS</p>
+</div>
+
+</div>
+<!-- ============ END CHINESE CONTENT ============ -->
+
+<!-- ============ ENGLISH CONTENT ============ -->
+<div id="lang-en" data-lang-container>
+
+<div class="section-header">Professional Experience</div>
+
+<div class="exp-entry">
+    <div class="exp-position">PhD Student</div>
+    <div class="exp-affiliation">HKUST(GZ), Microelectronics Thrust — Supervised by Prof. Yangdi Lyu</div>
+    <div class="exp-time">Sept. 2024 – Present</div>
+    <div class="exp-description">Research on intelligent verification techniques for digital chips, including EDA tools, concolic testing, hardware fuzzing, and RTL static analysis.</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">Research Intern</div>
+    <div class="exp-affiliation">Huawei NoahArk Lab: Agentic EDA — Supervisor: Siyuan XU</div>
+    <div class="exp-time">Feb. 2026 – Aug. 2026</div>
+    <div class="exp-description">Research &amp; Project: Agentic Placement for 3DIC, 3DIC Placement Optimization with AI.</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">Red Bird MPhil</div>
+    <div class="exp-affiliation">HKUST(GZ), Microelectronics Thrust — Supervised by Prof. Yangdi Lyu | GPA: 4.014/4.3 (Full Scholarship)</div>
+    <div class="exp-time">Sept. 2022 – Aug. 2024</div>
+    <div class="exp-description">Research on optimization algorithms, hardware formal verification &amp; testing.</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">Research Assistant</div>
+    <div class="exp-affiliation">HKUST Fok Ying Tung Research Institute — Guangzhou, China</div>
+    <div class="exp-time">Sept. 2021 – Sept. 2022</div>
+    <div class="exp-description">Research &amp; Project: Optimization Algorithms, Hardware Formal Verification &amp; Testing.</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">Research Assistant</div>
+    <div class="exp-affiliation">Oxford-Hainan Blockchain Research Institution — Hainan, China</div>
+    <div class="exp-time">Mar. 2021 – Sept. 2021</div>
+    <div class="exp-description">Research &amp; Project: Concolic Testing for Smart Contract; Random Number in Blockchain.</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">Algorithm Engineer</div>
+    <div class="exp-affiliation">China Mobile Online Service Company — Guangzhou, China</div>
+    <div class="exp-time">Mar. 2020 – Sept. 2020</div>
+    <div class="exp-description">Research &amp; Project: Deep Semantic Structured Model; English Chatbot through Click-through Data.</div>
+</div>
+
+<div class="section-header">Education</div>
+
+<div class="exp-entry">
+    <div class="exp-position">PhD | Microelectronics</div>
+    <div class="exp-affiliation">The Hong Kong University of Science and Technology (Guangzhou)</div>
+    <div class="exp-time">Sept. 2024 – Present | GPA: 4.15/4.3 (Full Scholarship)</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">MPhil | Microelectronics</div>
+    <div class="exp-affiliation">The Hong Kong University of Science and Technology (Guangzhou)</div>
+    <div class="exp-time">Sept. 2022 – Aug. 2024 | GPA: 4.014/4.3 (Full Scholarship)</div>
+</div>
+
+<div class="exp-entry">
+    <div class="exp-position">Bachelor of Science | Digital Media Technology</div>
+    <div class="exp-affiliation">Xiamen University</div>
+    <div class="exp-time">Oct. 2017 – Aug. 2021 | GPA: 3.54/4.0</div>
+</div>
+
+<div class="section-header">Skills &amp; Research Interests</div>
+
+<div class="skills">
+    <p><b>Programming Languages:</b> Verilog/SystemVerilog (SVA), Python, C++, Chisel</p>
+    <p><b>EDA &amp; Hardware Verification:</b> Symbolic Execution, Concolic Testing, Hardware Simulation &amp; Emulation, LLM-based Testing, SMT Solver, Model Checking, Hardware Security</p>
+    <p><b>Optimization &amp; AI:</b> Reinforcement Learning (Multi-agent), Meta-heuristic Optimization, Genetic Algorithm, LLM-driven EDA Optimization</p>
+    <p><b>Tools &amp; Frameworks:</b> Cadence JasperGold, Synopsys Formality, Verilator, Yosys, Pono, Cocotb, iverilog, VCS</p>
+</div>
+
+</div>
+<!-- ============ END ENGLISH CONTENT ============ -->
+
+<div class="footer">
+    &copy; 2025&ndash;2026 Ziyue Zheng
+</div>
+
+</div>
+
+<script src="assets/js/style.js"></script>
 </body>
 </html>

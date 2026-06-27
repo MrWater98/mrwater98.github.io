@@ -1,169 +1,138 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="zh">
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Services | Ziyue Zheng</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
-    <!-- font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <!-- custom css -->
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-    <!-- Navigation bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-hkust-light">
-        <a class="navbar-brand" href="#">
-        <img src="assets/img/GZ_logo.svg" alt="..." height="45">
-        </a>
-        <button class="navbar-toggler ml-auto collapsed" type="button" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </button>
-    <div class="collapse navbar-collapse navbar-light" id="navbarItems">
-        <!--<ul class="navbar-nav ml-auto">-->
-        <ul class="navbar-nav ml-auto">
-            <li class="li-nav-item">
-                <a class="nav-link " href="index.html">Home</a>
-            </li>
-            <li class="li-nav-item">
-                <a class="nav-link " href="publications.html">Publications</a>
-            </li>
-            <li class="li-nav-item">
-                <a class="nav-link " href="experience.html">Experience</a>
-            </li>
-            <li class="li-nav-item">
-                <a class="nav-link " href="services.html">Services</a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
 
 <div class="container">
-    <div class="row" id="services">
-        <div class="col-md-12">
-            <div class="section_header">Professional Services</div>
-            
-            <!-- Sub-Reviewer & Student Reviewer -->
-            <div class="service">
-                <div class="service-title">
-                    Sub-Reviewer & Student Reviewer
-                </div>
-                <div class="service-venue">
-                    DATE 2024, DAC 2024, HOST 2025, GLSVLSI
-                </div>
-            </div>
-            
-            <!-- Benchmark Contributor -->
-            <div class="service">
-                <div class="service-title">
-                    HWMCC 2024 Benchmark Contributor
-                </div>
-                <div class="service-venue">
-                    <a href="https://hwmcc.github.io/2024/" target="_blank">Hardware Model Checking Competition 2024</a>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    
-    <div class="row" id="projects">
-        <div class="col-md-12">
-            <div class="section_header">Collaborative Projects</div>
-            
-            <!-- Huawei Spark Award -->
-            <div class="service">
-                <div class="service-title">
-                    Huawei "Spark Award" Project Contributor
-                </div>
-                <div class="service-description">
-                    Research on semi-formal modeling for SAT-based hardware verification in EDA topics.
-                </div>
-                <div class="service-time">
-                    71st Challenge
-                </div>
-            </div>
-            
-            <!-- Primarius Verisim -->
-            <div class="service">
-                <div class="service-title">
-                    Primarius Verisim RTL Simulator Verification
-                </div>
-                <div class="service-description">
-                    Verisim simulator Validation and testing.
-                </div>
-            </div>
-            
-            <!-- Univista UVS -->
-            <div class="service">
-                <div class="service-title">
-                    Univista RTL Simulator (UVS) Testing and Verification
-                </div>
-                <div class="service-description">
-                    Validation and testing of UVS RTL simulator for hardware verification.
-                </div>
-            </div>
-            
-            <!-- ICT ECOS Team -->
-            <div class="service">
-                <div class="service-title">
-                    ICT* ECOS Team Processor Verification Collaboration
-                </div>
-                <div class="service-description">
-                    Verification of CL1 (ARM M0-class) core using self-designed coverage-based testing tools.
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    
-    <div class="row" id="teaching">
-        <div class="col-md-12">
-            <div class="section_header">Teaching Assistant</div>
-            
-            <div class="service">
-                <div class="service-title">
-                    C++, Embedded System
-                </div>
-                <div class="service-time">
-                    2023, 2025, 2026
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-md-12">
-            <p style="font-size: 0.8em; color: #666;">*ICT: Institute of Computing Technology, Chinese Academy of Sciences</p>
-        </div>
-    </div>
+
+<!-- Navigation -->
+<nav>
+    <a href="index.html">Home</a> |
+    <a href="publications.html">Publications</a> |
+    <a href="experience.html">Experience</a>
+    <span class="lang-nav">
+        <a href="#" onclick="setLang('zh'); return false;" class="lang-zh active-lang">中文</a>
+        |
+        <a href="#" onclick="setLang('en'); return false;" class="lang-en">English</a>
+    </span>
+</nav>
+
+<!-- ============ CHINESE CONTENT ============ -->
+<div id="lang-zh" data-lang-container class="active">
+
+<div class="section-header">学术服务</div>
+
+<div class="service-entry">
+    <div class="service-title">Sub-Reviewer &amp; Student Reviewer</div>
+    <div class="service-detail">DATE 2024, DAC 2024, HOST 2025, GLSVLSI</div>
 </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="assets/js/style.js"></script>
+<div class="service-entry">
+    <div class="service-title">HWMCC 2024 Benchmark Contributor</div>
+    <div class="service-detail"><a href="https://hwmcc.github.io/2024/" target="_blank">Hardware Model Checking Competition 2024</a></div>
+</div>
+
+<div class="section-header">合作项目</div>
+
+<div class="service-entry">
+    <div class="service-title">Huawei "Spark Award" Project Contributor</div>
+    <div class="service-detail">Research on semi-formal modeling for SAT-based hardware verification in EDA topics.</div>
+    <div class="service-detail" style="color:#666; font-size:14px;">71st Challenge</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">Primarius Verisim RTL Simulator Verification</div>
+    <div class="service-detail">Verisim simulator Validation and testing.</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">Univista RTL Simulator (UVS) Testing and Verification</div>
+    <div class="service-detail">Validation and testing of UVS RTL simulator for hardware verification.</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">ICT* ECOS Team Processor Verification Collaboration</div>
+    <div class="service-detail">Verification of CL1 (ARM M0-class) core using self-designed coverage-based testing tools.</div>
+</div>
+
+<div class="section-header">助教经历</div>
+
+<div class="service-entry">
+    <div class="service-title">C++, Embedded System</div>
+    <div class="service-detail" style="color:#666;">2023, 2025, 2026</div>
+</div>
+
+<div style="margin-top:30px; font-size:13px; color:#888;">
+    *ICT: Institute of Computing Technology, Chinese Academy of Sciences
+</div>
+
+</div>
+<!-- ============ END CHINESE CONTENT ============ -->
+
+<!-- ============ ENGLISH CONTENT ============ -->
+<div id="lang-en" data-lang-container>
+
+<div class="section-header">Professional Services</div>
+
+<div class="service-entry">
+    <div class="service-title">Sub-Reviewer &amp; Student Reviewer</div>
+    <div class="service-detail">DATE 2024, DAC 2024, HOST 2025, GLSVLSI</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">HWMCC 2024 Benchmark Contributor</div>
+    <div class="service-detail"><a href="https://hwmcc.github.io/2024/" target="_blank">Hardware Model Checking Competition 2024</a></div>
+</div>
+
+<div class="section-header">Collaborative Projects</div>
+
+<div class="service-entry">
+    <div class="service-title">Huawei "Spark Award" Project Contributor</div>
+    <div class="service-detail">Research on semi-formal modeling for SAT-based hardware verification in EDA topics.</div>
+    <div class="service-detail" style="color:#666; font-size:14px;">71st Challenge</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">Primarius Verisim RTL Simulator Verification</div>
+    <div class="service-detail">Verisim simulator Validation and testing.</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">Univista RTL Simulator (UVS) Testing and Verification</div>
+    <div class="service-detail">Validation and testing of UVS RTL simulator for hardware verification.</div>
+</div>
+
+<div class="service-entry">
+    <div class="service-title">ICT* ECOS Team Processor Verification Collaboration</div>
+    <div class="service-detail">Verification of CL1 (ARM M0-class) core using self-designed coverage-based testing tools.</div>
+</div>
+
+<div class="section-header">Teaching Assistant</div>
+
+<div class="service-entry">
+    <div class="service-title">C++, Embedded System</div>
+    <div class="service-detail" style="color:#666;">2023, 2025, 2026</div>
+</div>
+
+<div style="margin-top:30px; font-size:13px; color:#888;">
+    *ICT: Institute of Computing Technology, Chinese Academy of Sciences
+</div>
+
+</div>
+<!-- ============ END ENGLISH CONTENT ============ -->
+
+<div class="footer">
+    &copy; 2025&ndash;2026 Ziyue Zheng
+</div>
+
+</div>
+
+<script src="assets/js/style.js"></script>
 </body>
 </html>
