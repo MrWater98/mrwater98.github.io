@@ -14,6 +14,9 @@
         });
         var activeLink = document.querySelector('.lang-nav .lang-' + lang);
         if (activeLink) activeLink.classList.add('active-lang');
+        document.querySelectorAll('[data-lang-name]').forEach(function(el) {
+            el.hidden = el.getAttribute('data-lang-name') !== lang;
+        });
         // Save preference
         try {
             localStorage.setItem('homepage_lang', lang);
